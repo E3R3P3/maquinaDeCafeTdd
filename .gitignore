@@ -1,0 +1,56 @@
+# Compiled binaries
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Build results
+*.exe
+*.dll
+*.app
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Visual Studio settings
+.vs/
+
+# DotCover
+*.dotCover
+
+# Rider settings
+.idea/
+
+# Test results
+TestResults/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# ASP.NET secrets
+secrets.json
+
+# Auto-generated files
+Generated\_*
+
+# Local .NET tools
+.local/
+
+# JetBrains Rider
+.ReSharper*/
+*_Resharper.*
