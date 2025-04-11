@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("maquinaDeCafeTdd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c477b9500a779a7a006bf371451d8fc3f26f8641")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a7fee09e2ce726edc131aed33a473272fdf3618")]
 [assembly: System.Reflection.AssemblyProductAttribute("maquinaDeCafeTdd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("maquinaDeCafeTdd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

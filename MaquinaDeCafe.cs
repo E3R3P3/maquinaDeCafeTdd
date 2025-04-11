@@ -6,7 +6,7 @@ namespace MaquinaDeCafe
     {
         public static void IniciarCafetera()
         {
-            Console.WriteLine("||||||||||||  CAFETERA ||||||||||||");
+            Console.WriteLine("\n\n||||||||||||  CAFETERA ||||||||||||");
             Vaso.GetVaso();
         }
     }
@@ -21,11 +21,11 @@ namespace MaquinaDeCafe
        public static void GetVaso()
         {
 
-            Console.WriteLine("\n\t\t Seleccione el tipo de Vaso que quiere: ");
-            Console.WriteLine("\n\t1. Vaso Pequeño 3 OZ");
-            Console.WriteLine("\n\t2. Vaso Mediano 5 OZ");
-            Console.WriteLine("\n\t3. Vaso Grande 7 OZ");
-
+            Console.WriteLine("\n Tipo de Vaso: ");
+            Console.WriteLine("\n1. Vaso Pequeño 3 OZ");
+            Console.WriteLine("\n2. Vaso Mediano 5 OZ");
+            Console.WriteLine("\n3. Vaso Grande 7 OZ");
+            Console.Write(":>");
             int tipoVaso = 0;
             string nameVaso = "";
 
@@ -36,8 +36,7 @@ namespace MaquinaDeCafe
                 {
                     case 1:
                         {
-                            Console.WriteLine("");
-                            //Console.WriteLine("Seleccionaste el Vaso Pequeno");
+                            Console.WriteLine("\nSeleccionaste el vaso Pequeno");//
                             nameVaso = "Vaso Pequeño";
                             if (vasosPequenos > 0)
                             {
@@ -46,15 +45,14 @@ namespace MaquinaDeCafe
                             }
                             else
                             {
-                                Console.WriteLine("Ya no quedan mas vasos Pequenos, Por favor seleccione otra opcion!");
+                                Console.WriteLine("Ya no quedan mas vasos Pequenos, Por favor seleccione otra opcion");
                                 GetVaso();
                             }
                             break;
                         }
                     case 2:
                         {
-                            Console.WriteLine("");
-                            // Console.WriteLine("Seleccionaste el Vaso Mediano");
+                            Console.WriteLine("Seleccionaste el Vaso Mediano");//
                             nameVaso = "Vaso Mediano";
                             if (vasosMedianos > 0)
                             {
@@ -63,15 +61,14 @@ namespace MaquinaDeCafe
                             }
                             else
                             {
-                                Console.WriteLine("Ya no quedan mas vasos Medianos, Por favor seleccione otra opcion!");
+                                Console.WriteLine("Ya no quedan mas vasos Medianos, Por favor seleccione otra opcion");
                                 GetVaso();
                             }
                             break;
                         }
                     case 3:
                         {
-                            Console.WriteLine("");
-                            // Console.WriteLine("Seleccionaste el Vaso Grande");
+                            Console.WriteLine("\nSeleccionaste el Vaso Grande");//
                             nameVaso = "Vaso Grande";
                             if(vasosGrandes > 0)
                             {
@@ -88,9 +85,7 @@ namespace MaquinaDeCafe
                         }
                     default:
                         {
-                            Console.WriteLine("----- ERRROR -------");
-                            Console.WriteLine("Solo puede seleccionar un numero del 1 al 3, usted selecciono: "+ tipoVaso);
-                            Console.WriteLine("--------------------------------------------------------------------------");
+                            Console.WriteLine("\nSolo puede seleccionar un numero del 1 al 3");
                             GetVaso();
                             break;
                         }
@@ -99,9 +94,7 @@ namespace MaquinaDeCafe
             }
             catch
             {
-                Console.WriteLine("----- ERRROR -------");
-                Console.WriteLine("Error Solo Se Permiten numeros enteros");
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("\nError Solo Se Permiten numeros enteros\n");
                 GetVaso();
             }
 
@@ -117,29 +110,28 @@ namespace MaquinaDeCafe
             
             if(cafe < 3)
             {
-                Console.WriteLine("NO HAY CAFE!");
+                Console.WriteLine("\nNo hay cafe\n");
             }
             else
             {
-                Console.WriteLine("\nUsted Selecciono el " + nameVaso);
-                Console.WriteLine(" ----- Seleccione la Cantidad de Cafe Que Quiere en su vaso: \n");
-
+                Console.WriteLine("\nCantidad de Cafe Que Quiere en su vaso:");
+                
                 if (tipoVaso >= 1)
                 {
-                    Console.WriteLine("1. 3 OZ");
+                    Console.WriteLine("\n1. 3 OZ");
                 }
                 if (tipoVaso >= 2)
                 {
-                    Console.WriteLine("2. 5 OZ");
+                    Console.WriteLine("\n2. 5 OZ");
                 }
                 if (tipoVaso >= 3)
                 {
-                    Console.WriteLine("3. 7 OZ");
+                    Console.WriteLine("\n3. 7 OZ");
                 }
 
                 int opcionCafe = 0;
                 int cantidadCafe = 0;
-
+                Console.Write(":>");
                 try
                 {
                     opcionCafe = int.Parse(Console.ReadLine());
@@ -158,21 +150,16 @@ namespace MaquinaDeCafe
                                     }
                                     else
                                     {
-                                        Console.WriteLine("No hay suficiente Cafe, solo queda: " + cafe + " OZ");
-                                        Console.WriteLine("Por Favor Seleccione otra opcion");
+                                        Console.WriteLine("\nNo hay cafe suficiente, solo queda: " + cafe + " OZ");
                                         GetCafe(tipoVaso, nameVaso);
-
                                     }
 
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Por Favor Seleccione una de las opciones en pantalla");
+                                    Console.WriteLine("\nPor Favor Seleccione una de las opciones en pantalla");
                                     GetCafe(tipoVaso, nameVaso);
                                 }
-
-
-
                                 break;
                             }
                         case 2:
@@ -187,8 +174,7 @@ namespace MaquinaDeCafe
                                     }
                                     else
                                     {
-                                        Console.WriteLine("No hay suficiente Cafe, solo queda: " + cafe + " OZ");
-                                        Console.WriteLine("Por Favor Seleccione otra opcion");
+                                        Console.WriteLine("\nNo hay cafe suficiente, solo queda: " + cafe + " OZ");
                                         GetCafe(tipoVaso, nameVaso);
 
                                     }
@@ -196,7 +182,7 @@ namespace MaquinaDeCafe
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Por Favor Seleccione una de las opciones en pantalla");
+                                    Console.WriteLine("\nPor Favor Seleccione una de las opciones en pantalla");
                                     GetCafe(tipoVaso, nameVaso);
                                 }
 
@@ -215,15 +201,14 @@ namespace MaquinaDeCafe
                                     }
                                     else
                                     {
-                                        Console.WriteLine("No hay suficiente Cafe, solo queda: " + cafe + " OZ");
-                                        Console.WriteLine("Por Favor Seleccione otra opcion");
+                                        Console.WriteLine("\nNo hay cafe suficiente, solo queda: " + cafe + " OZ");
                                         GetCafe(tipoVaso, nameVaso);
 
                                     }
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Por Favor Seleccione una de las opciones en pantalla");
+                                    Console.WriteLine("\nPor Favor Seleccione una de las opciones en pantalla");
                                     GetCafe(tipoVaso, nameVaso);
                                 }
 
@@ -233,9 +218,7 @@ namespace MaquinaDeCafe
                             }
                         default:
                             {
-                                Console.WriteLine("----- ERRROR -------");
-                                Console.WriteLine("Solo puede seleccionar un numero del 1 al 3, usted selecciono: " + opcionCafe);
-                                Console.WriteLine("--------------------------------------------------------------------------");
+                                Console.WriteLine("\nSolo puede seleccionar un numero del 1 al 3, usted selecciono: " + opcionCafe);
                                 GetCafe(tipoVaso, nameVaso);
                                 break;
                             }
@@ -244,9 +227,7 @@ namespace MaquinaDeCafe
                 }
                 catch
                 {
-                    Console.WriteLine("----- ERRROR -------");
-                    Console.WriteLine("Error Solo Se Permiten numeros enteros");
-                    Console.WriteLine("---------------------------------------");
+                    Console.WriteLine("\nError Solo Se Permiten numeros enteros");
                     GetCafe(tipoVaso, nameVaso);
                 }
             }
@@ -262,14 +243,14 @@ namespace MaquinaDeCafe
         public static void GetAzucar(string nameVaso, int cantidadCafe)
         {
 
-            Console.WriteLine("\n----- Seleccione la cantidad de cucharadas de azucar que quiere en su cafe:\n");
-            Console.WriteLine("0. Sin Azucar");
-            Console.WriteLine("1. Una Cucharada");
-            Console.WriteLine("2. Dos Cucharada");
-            Console.WriteLine("3. Tres Cucharada");
-            Console.WriteLine("4. Cuatro Cucharada");
-            Console.WriteLine("5. Cinco Cucharada");
-
+            Console.WriteLine("\n|||||||||||| cucharadas de azucar que quiere en su cafe:\n");
+            Console.WriteLine("\n0. Sin Azucar");
+            Console.WriteLine("\n1. Una Cucharada");
+            Console.WriteLine("\n2. Dos Cucharada");
+            Console.WriteLine("\n3. Tres Cucharada");
+            Console.WriteLine("\n4. Cuatro Cucharada");
+            Console.WriteLine("\n5. Cinco Cucharada");
+            Console.Write(":>");
             int opcionAzucar = 0;
 
             try
@@ -280,34 +261,30 @@ namespace MaquinaDeCafe
                 {
                     if(opcionAzucar <= azucar)
                     {
-                        Console.WriteLine("");
-                        Console.WriteLine("!!!--- SU CAFE ESTA COMPLETO ---!!!");
-                        Console.WriteLine(" Usted selecciono un " + nameVaso);
-                        Console.WriteLine("Con " + cantidadCafe + " OZ de CAFE");
-                        Console.WriteLine("Y "+ opcionAzucar + "Cucharadas de Azucar");
-                        Console.WriteLine("");
+                        Console.WriteLine("\n||||||||||||CAFE ESTA COMPLETO||||||||||||");
+                        Console.WriteLine("\nVaso:  " + nameVaso);
+                        Console.WriteLine("\nCantidad: " + cantidadCafe + " OZ de CAFE");
+                        Console.WriteLine("\nAzucar :"+ opcionAzucar + " cucharadas");
+                        Console.Write("\n\nPresione enter para pedir otro cafe");
+                        Console.ReadLine();
                         Cafetera.IniciarCafetera();
                     }
                     else
                     {
-                        Console.WriteLine("");
-                        Console.WriteLine("No queda suficiente azucar, solo quedan " + azucar + "Cucharadas");
-                        Console.WriteLine("");
+                        Console.WriteLine("\nNo queda suficiente azucar, solo quedan " + azucar + " cucharadas");
                     }
 
                 }
                 else
                 {
-                    Console.WriteLine("Debe ser una opcion del 1 al 5, usted selecciono: " + opcionAzucar);
+                    Console.WriteLine("\nDebe ser una opcion del 1 al 5, usted selecciono: " + opcionAzucar);
                     GetAzucar(nameVaso, cantidadCafe);
                 }
 
             }
             catch
             {
-                Console.WriteLine("----- ERRROR -------");
-                Console.WriteLine("Error Solo Se Permiten numeros enteros");
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("\nError Solo Se Permiten numeros enteros");
                 GetAzucar(nameVaso, cantidadCafe);
             }
 
