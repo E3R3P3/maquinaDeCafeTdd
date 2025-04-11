@@ -54,3 +54,12 @@ Generated\_*
 # JetBrains Rider
 .ReSharper*/
 *_Resharper.*
+
+bin/
+obj/
+.vs/
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
