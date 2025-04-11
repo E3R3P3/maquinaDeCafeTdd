@@ -1,10 +1,15 @@
-﻿class Program
+﻿using System;
+using MaquinaDeCafe;
+
+namespace MaquinaDeCafe
 {
+    class Program
+    {
     
-    public static void Main(string[] args){
-
-        Console.WriteLine("Nada implementado aun");
-
+        static void Main(string[] args)
+        {
+            Cafetera.IniciarCafetera();
+        }
+        
     }
-
 }
