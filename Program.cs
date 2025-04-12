@@ -8,7 +8,7 @@ namespace MaquinaDeCafe
     
         static void Main(string[] args)
         {
-            Cafetera.IniciarCafetera();
+            Cafetera.Start();
         }
         
     }

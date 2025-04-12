@@ -8,27 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\enman\\.nuget\\packages\\": {}
+    "/Users/ameliahc/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enman\\Documents\\I(ITLA)I\\C-1 2025\\Administracion de Proyectos\\TDD\\maquinaDeCafeTdd\\maquinaDeCafeTdd.csproj",
+      "projectUniqueName": "/Users/ameliahc/Repos/maquinaDeCafeTdd/maquinaDeCafeTdd.csproj",
       "projectName": "maquinaDeCafeTdd",
-      "projectPath": "C:\\Users\\enman\\Documents\\I(ITLA)I\\C-1 2025\\Administracion de Proyectos\\TDD\\maquinaDeCafeTdd\\maquinaDeCafeTdd.csproj",
-      "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enman\\Documents\\I(ITLA)I\\C-1 2025\\Administracion de Proyectos\\TDD\\maquinaDeCafeTdd\\obj\\",
+      "projectPath": "/Users/ameliahc/Repos/maquinaDeCafeTdd/maquinaDeCafeTdd.csproj",
+      "packagesPath": "/Users/ameliahc/.nuget/packages/",
+      "outputPath": "/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\enman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ameliahc/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

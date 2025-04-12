@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = maquinaDeCafeTdd
-build_property.ProjectDir = C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\
+build_property.ProjectDir = /Users/ameliahc/Repos/maquinaDeCafeTdd/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

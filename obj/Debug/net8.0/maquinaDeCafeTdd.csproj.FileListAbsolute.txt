@@ -1,15 +1,30 @@
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.AssemblyInfoInputs.cache
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.AssemblyInfo.cs
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.csproj.CoreCompileInputs.cache
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\bin\Debug\net8.0\maquinaDeCafeTdd.exe
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\bin\Debug\net8.0\maquinaDeCafeTdd.deps.json
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\bin\Debug\net8.0\maquinaDeCafeTdd.runtimeconfig.json
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\bin\Debug\net8.0\maquinaDeCafeTdd.dll
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\bin\Debug\net8.0\maquinaDeCafeTdd.pdb
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.dll
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\refint\maquinaDeCafeTdd.dll
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.pdb
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.genruntimeconfig.cache
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\ref\maquinaDeCafeTdd.dll
-C:\Users\enman\Documents\I(ITLA)I\C-1 2025\Administracion de Proyectos\TDD\maquinaDeCafeTdd\obj\Debug\net8.0\maquinaDeCafeTdd.sourcelink.json
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.AssemblyInfoInputs.cache
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.AssemblyInfo.cs
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.csproj.CoreCompileInputs.cache
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.exe
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.deps.json
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.runtimeconfig.json
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.dll
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.pdb
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.dll
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/refint/maquinaDeCafeTdd.dll
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.pdb
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.genruntimeconfig.cache
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/ref/maquinaDeCafeTdd.dll
+C:/Users/enman/Documents/I(ITLA)I/C-1 2025/Administracion de Proyectos/TDD/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.sourcelink.json
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.AssemblyInfoInputs.cache
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.AssemblyInfo.cs
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.csproj.CoreCompileInputs.cache
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.sourcelink.json
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.dll
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/refint/maquinaDeCafeTdd.dll
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.pdb
+/Users/ameliahc/Repos/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd
+/Users/ameliahc/Repos/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.deps.json
+/Users/ameliahc/Repos/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.runtimeconfig.json
+/Users/ameliahc/Repos/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.dll
+/Users/ameliahc/Repos/maquinaDeCafeTdd/bin/Debug/net8.0/maquinaDeCafeTdd.pdb
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/maquinaDeCafeTdd.genruntimeconfig.cache
+/Users/ameliahc/Repos/maquinaDeCafeTdd/obj/Debug/net8.0/ref/maquinaDeCafeTdd.dll
